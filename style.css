@@ -243,6 +243,7 @@ nav ul li a:hover {
 
 .where img {
   height: 400px;
+  width: 100%;
   background-position: center;
   background-size: cover;
   margin: 20px 0;
