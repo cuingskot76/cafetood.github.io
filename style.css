@@ -141,7 +141,7 @@ nav ul li a:hover {
 
 /* CONTAINER-SATU */
 .container-satu {
-  max-width: 600px;
+  max-width: 700px;
   margin: 100px auto;
   font-family: "Inconsolata", monospace;
   box-sizing: border-box;
@@ -350,11 +350,11 @@ nav ul li a:hover {
 /* RESPONSIVE */
 
 /* UKURAN MIN-Windows */
-/* @media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
   nav ul li a {
-    padding: 1.1em 4em;
+    padding: 1.1em 2em;
   }
-} */
+}
 
 /* Ukuran Tablet */
 @media screen and (max-width: 768px) {
@@ -407,6 +407,6 @@ nav ul li a:hover {
   }
 
   .container-satu {
-    max-width: 450px;
+    max-width: 400px;
   }
 }
